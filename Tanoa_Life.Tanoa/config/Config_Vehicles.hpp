@@ -26,7 +26,95 @@ class CarShops {
             { "C_SUV_01_F", "" },
             { "C_Hatchback_01_sport_F", "" },
             { "C_Van_01_transport_F", "" },
-            { "C_Offroad_02_unarmed_F", "" } //Apex DLC
+            { "C_Offroad_02_unarmed_F", "" },
+			{ "Berlingo2_civ_bleu", "" },
+			{ "Berlingo2_civ_gris", "" },
+			{ "Berlingo2_civ_yellow", "" },
+			{ "Berlingo2_civ_noir", "" },
+			{ "Berlingo2_civ_rouge", "" },
+			{ "c4hch_civ_bleu", "" },
+			{ "c4hch_civ_gris", "" },
+			{ "c4hch_civ_yellow", "" },
+			{ "c4hch_civ_noir", "" },
+			{ "c4hch_civ_rouge", "" },
+			{ "chduster14_civ_bleu", "" },
+			{ "chduster14_civ_gris", "" },
+			{ "chduster14_civ_yellow", "" },
+			{ "chduster14_civ_noir", "" },
+			{ "chduster14_civ_rouge", "" },
+			{ "Ivecoch_cciv_bleu", "" },
+			{ "Ivecoch_cciv_gris", "" },
+			{ "Ivecoch_cciv_yellow", "" },
+			{ "Ivecoch_cciv_noir", "" },
+			{ "Ivecoch_cciv_rouge", "" },
+			{ "Ivecoch_civ_bleu", "" },
+			{ "Ivecoch_civ_gris", "" },
+			{ "Ivecoch_civ_yellow", "" },
+			{ "Ivecoch_civ_noir", "" },
+			{ "Ivecoch_civ_rouge", "" },
+			{ "chdefender_civ_bleu", "" },
+			{ "chdefender_civ_gris", "" },
+			{ "chdefender_civ_yellow", "" },
+			{ "chdefender_civ_noir", "" },
+			{ "chdefender_civ_rouge", "" },
+			{ "ch_sprinter_civ_bleu", "" },
+			{ "ch_sprinter_civ_gris", "" },
+			{ "ch_sprinter_civ_yellow", "" },
+			{ "ch_sprinter_civ_noir", "" },
+			{ "ch_sprinter_civ_rouge", "" },
+			{ "ch206_civ_bleu", "" },
+			{ "ch206_civ_gris", "" },
+			{ "ch206_civ_yellow", "" },
+			{ "ch206_civ_noir", "" },
+			{ "ch206_civ_rouge", "" },
+			{ "307ch_civ_bleu", "" },
+			{ "307ch_civ_gris", "" },
+			{ "307ch_civ_yellow", "" },
+			{ "307ch_civ_noir", "" },
+			{ "307ch_civ_rouge", "" },
+			{ "308_2015_civ_bleu", "" },
+			{ "308_2015_civ_gris", "" },
+			{ "308_2015_civ_yellow", "" },
+			{ "308_2015_civ_noir", "" },
+			{ "308_2015_civ_rouge", "" },
+			{ "Peugeot_Boxer_civ_bleu", "" },
+			{ "Peugeot_Boxer_civ_gris", "" },
+			{ "Peugeot_Boxer_civ_yellow", "" },
+			{ "Peugeot_Boxer_civ_noir", "" },
+			{ "Peugeot_Boxer_civ_rouge", "" },
+			{ "Renault_ClioIV_civ_bleu", "" },
+			{ "Renault_ClioIV_civ_gris", "" },
+			{ "Renault_ClioIV_civ_yellow", "" },
+			{ "Renault_ClioIV_civ_noir", "" },
+			{ "Renault_ClioIV_civ_rouge", "" },
+			{ "Kangooll1_civ_bleu", "" },
+			{ "Kangooll1_civ_gris", "" },
+			{ "Kangooll1_civ_yellow", "" },
+			{ "Kangooll1_civ_noir", "" },
+			{ "Kangooll1_civ_rouge", "" },
+			{ "chmeganers_civ_bleu", "" },
+			{ "chmeganers_civ_gris", "" },
+			{ "chmeganers_civ_yellow", "" },
+			{ "chmeganers_civ_noir", "" },
+			{ "chmeganers_civ_rouge", "" },
+			{ "Renault_Master_car_bleu", "" },
+			{ "Renault_Master_car_gris", "" },
+			{ "Renault_Master_car_yellow", "" },
+			{ "Renault_Master_car_noir", "" },
+			{ "Renault_Master_car_rouge", "" },
+			{ "midlum_bleu", "" },
+			{ "midlum_gris", "" },
+			{ "midlum_yellow", "" },
+			{ "midlum_noir", "" },
+			{ "midlum_rouge", "" },
+			{ "subaruch_civ_bleu", "" },
+			{ "subaruch_civ_gris", "" },
+			{ "subaruch_civ_yellow", "" },
+			{ "subaruch_civ_noir", "" },
+			{ "subaruch_civ_rouge", "" }
+			
+			
+			
         };
     };
 
@@ -872,6 +960,627 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vFuelSpace = 50000;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 250000;
+        textures[] = {};
+    };
+	
+	 class chmeganers_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	
+	class Berlingo2_civ_bleu	{
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Berlingo2_civ_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Berlingo2_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Berlingo2_civ_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Berlingo2_civ_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class c4hch_civ_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class c4hch_civ_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class c4hch_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class c4hch_civ_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class c4hch_civ_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chduster14_civ_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chduster14_civ_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chduster14_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chduster14_civ_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chduster14_civ_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Ivecoch_cciv_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Ivecoch_cciv_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Ivecoch_cciv_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Ivecoch_cciv_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Ivecoch_cciv_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	
+
+	class Ivecoch_civ_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Ivecoch_civ_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Ivecoch_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Ivecoch_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Ivecoch_civ_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Ivecoch_civ_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+
+	class chdefender_civ_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chdefender_civ_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chdefender_civ_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chdefender_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chdefender_civ_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chdefender_civ_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class ch_sprinter_civ_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class ch_sprinter_civ_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class ch_sprinter_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class ch_sprinter_civ_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class ch_sprinter_civ_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class ch206_civ_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class ch206_civ_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class ch206_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class ch206_civ_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class ch206_civ_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class 307ch_civ_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class 307ch_civ_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class 307ch_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class 307ch_civ_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class 307ch_civ_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class 308_2015_civ_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class 308_2015_civ_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class 308_2015_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class 308_2015_civ_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class 308_2015_civ_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Peugeot_Boxer_civ_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Peugeot_Boxer_civ_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Peugeot_Boxer_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Peugeot_Boxer_civ_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Peugeot_Boxer_civ_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Renault_ClioIV_civ_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Renault_ClioIV_civ_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Renault_ClioIV_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Renault_ClioIV_civ_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Renault_ClioIV_civ_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Kangooll1_civ_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Kangooll1_civ_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Kangooll1_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Kangooll1_civ_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Kangooll1_civ_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chmeganers_civ_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chmeganers_civ_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chmeganers_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chmeganers_civ_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class chmeganers_civ_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Renault_Master_car_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Renault_Master_car_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Renault_Master_car_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Renault_Master_car_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class Renault_Master_car_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class midlum_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class midlum_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    }
+	;class midlum_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class midlum_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class midlum_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class subaruch_civ_bleu {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class subaruch_civ_gris {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class subaruch_civ_noir {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class subaruch_civ_rouge {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
+        textures[] = {};
+    };
+	class subaruch_civ_yellow {
+        vItemSpace = 25;
+        vFuelSpace = 1000;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 12000;
         textures[] = {};
     };
 };
